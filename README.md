@@ -45,3 +45,18 @@ docker run hello-world
 
 
   minikube start
+  
+  
+# Low memory
+
+https://github.com/kubernetes/minikube/issues/6843
+
+  sudo minikube start --vm-driver=none
+
+sudo minikube start --memory 2048 --cpus 2
+
+  free -m
+  tail -5 /etc/dphys-swapfile
+  
+  dockerd --storage-opt dm.basesize=20G
+  
