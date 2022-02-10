@@ -8,3 +8,10 @@ Install system and software
 # minikube
 
 [minikube start | minikube](https://minikube.sigs.k8s.io/docs/start/)
+
+
+  curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-arm
+  sudo install minikube-linux-arm /usr/local/bin/minikube
+
+
+  minikube start
