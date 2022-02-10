@@ -8,7 +8,10 @@ Install system and software
 
 [How to Install Docker on Rasberry Pi (Step-by-Step Guide)](https://phoenixnap.com/kb/docker-on-raspberry-pi)
 
+
 sudo apt-get update && sudo apt-get upgrade
+
+sudo apt install curl 
 
 curl -fsSL https://get.docker.com -o get-docker.sh
 
